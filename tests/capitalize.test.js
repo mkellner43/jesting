@@ -1,4 +1,4 @@
-import { capitalize } from "../functions/capitalize";
+import { capitalize } from "../modules/capitalize";
 
 test('Capitalize first letter of one word string', ()=> {
   expect(capitalize('hello')).toBe('Hello')
